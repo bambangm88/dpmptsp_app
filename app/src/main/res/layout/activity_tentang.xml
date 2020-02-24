@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.tentang">
+
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_tentang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/abuBiru"
+            android:elevation="5dp"
+            android:minHeight="?attr/actionBarSize"
+            app:title="Tentang" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/dpmptsp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"/>
+
+
+    <TextView
+        android:textSize="17dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="~Tentang Penulis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+<TextView
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="20dp"
+    android:textAlignment="center"
+    android:text="~Implementasi Algoritma Kriptrografi RSA Pada Aplikasi Pengecekan Perizinan Bangunan Berbasis Qr-Code~"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="13dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="Nama : Dias Eka Prayuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="NIM : 2014081043"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:text="Kelas : TI 2014 C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textSize="17dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="~Tentang Aplikasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:justificationMode="inter_word"
+        android:text="Aplikasi ini dibuat untuk memudahkan pengecekan dan meminimalisir rawannya pemalsuan izin yang sudah diberikan oleh dinas penanaman modal dan terpadu satu pintu (DPMPTSP) agar tidak disalahgunakan untuk kepentingan-kepentingan oknum-oknum yang tidak bertanggung jawab atau untuk kepentingan sendiri yang tentu saja merugikan berbagai pihak terutama kedinasan dan juga masyarakat~"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
